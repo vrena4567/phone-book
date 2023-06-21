@@ -25,10 +25,15 @@ public class PhoneBookManager {
 
     private void printMenu() {
         // TODO Írd ki az alábbi menüsort:
+        //  0. List contacts
         //  1. Add contact
         //  2. Search contact
         //  3. Remove contact
         //  4. Exit
+    }
+
+    private void listContacts() {
+        // TODO Szépen formázva írd ki a telefonkönyv összes bejegyzését!
     }
 
     private void addContact() {
