@@ -21,12 +21,12 @@ public class PhoneBookManager {
             scanner.nextLine(); // vajon miért kell ez a sor?                                         >>> hogy beolvassa az entert is, stb.-t, a nextInt után szeretünk ilyen nextLine-t írni
             // TODO a megadott szám alapján hívd meg a megfelelő metódust vagy lépj ki!
             switch (choice) {
-                case 0 : listContacts();
-                case 1 : addContact();
-                case 2 : searchContact();
-                case 3 : removeContact();
-                case 4 : running = false;
-                default : System.out.println("héj");
+                case 0 -> listContacts();
+                case 1 -> addContact();
+                case 2 -> searchContact();
+                case 3 -> removeContact();
+                case 4 -> running = false;
+                default -> System.out.println("héj");
             }
         }
         scanner.close();                                                // megvalósítja a closable interface-t
